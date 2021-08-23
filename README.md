@@ -14,7 +14,7 @@ Projeto desenvolvido para agrupar conteúdos relacionados ao uso do PHP puro
 ```
 composer init
 ```
-- Serão solicitadas algumas informações para configuração do projeto e após será gerado um arqivo 'composer.json', que listará todas as dependências do projeto.
+- Serão solicitadas algumas informações para configuração do projeto e após será gerado um arqivo `composer.json`, que listará todas as dependências do projeto.
 
 ### Autoloader
 
@@ -22,7 +22,7 @@ composer init
 ```
 mkdir app
 ```
-- Abrir o arquivo composer.json e configurar o autoloader:
+- Abrir o arquivo `composer.json` e configurar o autoloader:
 ```json
 ...
 "require": {},
@@ -33,4 +33,9 @@ mkdir app
   }
 ...
 ```
+- Gerar o arquivo `vendor/autoloader.php` com o comando:
+```
+composer dump-autoload
+```
+- Após a execução do comando será criado um diretório `vendor` e dentro dele um arquivo `autoload.php` e um diretório `composer` com as configurações do Autoloader
 
