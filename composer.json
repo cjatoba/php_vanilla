@@ -1,0 +1,17 @@
+{
+    "name": "cjatoba/php_vanilla",
+    "description": "Projeto desenvolvido para agrupar conteúdos relacionados ao uso do PHP puro",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "cjatoba",
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "App\\" : "app/"
+        }
+    }
+}
